@@ -1,15 +1,7 @@
-# DavidPaguinto.github.io
-
-Testing Github Pages for my 
-
-Portfolio 
-
-later....a
-sd
-asddas
-.
-.
-.
-.
-.
-
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Testing</h1>
+  </body>
+</html>
