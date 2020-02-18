@@ -2107,6 +2107,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/*Navbar*/
+	.navbar-link {
+		padding: 0em 1em;
+		text-decoration: none;
+	}
+
+/*contact*/
+	.contact {
+	
+	}
+
 /* Icon */
 
 	.icon {
@@ -2167,6 +2178,10 @@ input, select, textarea {
 			}
 
 /* Lists */
+	li {
+
+		list-style: none;
+	}
 
 	ol {
 		list-style: decimal;
@@ -2720,7 +2735,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		.wrapper.style1 {
