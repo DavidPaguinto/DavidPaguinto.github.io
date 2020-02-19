@@ -1,4 +1,4 @@
-@import url("font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("font-awesome-4.7.0/css/font-awesome.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
@@ -2545,7 +2545,7 @@ input, select, textarea {
 /* Header */
 	.header {
 		text-align: center;
-
+		margin-bottom: 2em;
 	}
 
 	#header {
@@ -2907,7 +2907,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 0 3em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				#footer .container {
@@ -3378,6 +3378,6 @@ input, select, textarea {
 
 	}
 
-.test {
+#footer_text {
 	font-weight: 100;
 }
