@@ -2552,14 +2552,21 @@ input, select, textarea {
 		text-align: center;
 		padding: 3em 0 0 0;
 		background-color: #fff;
-		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
+		background-image: url(../../images/computer.jpg);
+		background-size:     cover;                      
+	    background-repeat:   no-repeat;
+	    background-position: center center;      
+		/*background-position: top left,					top left,					top left;*/
+		/*background-size: 100% 6em,					100% 6em,					auto;*/
+		/*background-repeat: no-repeat,					no-repeat,					repeat;*/
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
-			margin: 0;
+			/*padding: 0 0 2.75em 0;*/
+			/*margin: 0;*/
+			padding: 0 0 6em 5em;
+			font-size: 1.5em;
+
 		}
 
 			#header h1 a {
@@ -2739,6 +2746,7 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 2em 0 2em 0;
+		height: 100vh;
 	}
 
 		.wrapper.style1 {
@@ -2792,7 +2800,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 4em 0 2em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		#footer a {
@@ -3380,4 +3388,28 @@ input, select, textarea {
 
 #footer_text {
 	font-weight: 100;
+}
+
+.icon {
+	/*margin: 10px 0px;*/
+	height:10%;
+	width:10%;
+
+}
+
+#footer > .container > .row > div > div{
+	margin-bottom: 20px;
+	display: inline-flex;
+}
+
+.about {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#header p {
+	margin-top: 4em;
+	padding: 0 0 6em 5em;
+    font-size: 1.5em;
 }
