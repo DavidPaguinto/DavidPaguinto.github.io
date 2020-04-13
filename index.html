@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> -->
 <html lang="en">
 
 <head>
@@ -110,10 +110,32 @@
           <div class="featured-text text-center text-lg-left">
             <h4>Dokuwiki</h4>
             <p class="text-black-50 mb-3">A web application used by the internal team to view and edit policies and procedures. It consists of a user and admin login. </p>
-             <a href="" class="btn btn-primary js-scroll-trigger">Read More</a>
+             <!-- <a href="" class="btn btn-primary js-scroll-trigger">Read More</a> -->
+             <a href="#" class = "btn btn-primary" data-toggle="modal" data-target="#modal-project">Read More</a>
           </div>
         </div>
       </div>      
+
+    <!-- Dokuwiki Modal -->
+    <div class="modal fade" id="modal-project" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="exampleModalLabel">Dokuwiki</h4>
+          </div>
+          <div class="modal-body">
+            <div>
+              Tools
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Dokuwiki Modal -->
+
 
       <!-- Featured Project Row #2 -->
 <!--       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -142,59 +164,6 @@
                 <h4 class="text-white">DokuHUB </h4>
                 <p class="mb-0 text-white-50">A web application used by the internal team to view and edit policies and procedures. It consists of a user and admin login. </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Two Row --
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Blog</h4>
-                <p class="mb-0 text-white-50">Uses Yii Framework and taken a free template from bootstrap. Have admin login and privileges.</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Third Row --
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Expense Calculator</h4>
-                <p class="mb-0 text-white-50">Is a expense calculator..</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Project Fourth Row --
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Project #4</h4>
-                <p class="mb-0 text-white-50">Is a project used with Laravel Framework..</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
@@ -295,3 +264,11 @@
 </body>
 
 </html>
+<!-- <?php
+  // Yii::app()->clientScript->registerScript('Open Modal', "
+  // $(document).ready(function(){
+  //   $('#modal-project').on('shown.bs.modal', function (e) {
+  //   })
+  // });
+  // ", CClientScript::POS_LOAD);
+?>
