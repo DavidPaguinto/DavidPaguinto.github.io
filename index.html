@@ -21,6 +21,9 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+
 </head>
 
 <body id="page-top">
@@ -82,15 +85,14 @@
           <h2 class="text-white mb-4">Skills</h2>
           <li class="text-white-50 mb-4"> General Web Technologies: HTML5, CSS3, PHP, JavaScript </li>
           <li class="text-white-50 mb-4"> CSS Frameworks: Bootstrap </li>
-          <li class="text-white-50 mb-4"> PHP Frameworks: Yii </li>
+          <li class="text-white-50 mb-4"> PHP Frameworks: Yii, Laravel</li>
           <li class="text-white-50 mb-4"> JavaScript Libraries: jQuery, React.js </li>
-          <li class="text-white-50 mb-4"> Databases: MySQL, MariaDB </li>
-          <li class="text-white-50 mb-4"> Versioning tools: Git </li>
-          <li class="text-white-50 mb-4"> File Transfer Protocol Tools: WinSCP </li>
-          <li class="text-white-50 mb-4"> Open-source Platforms: XAMPP </li>
-          <li class="text-white-50 mb-4"> Others: Linux OS Knowledge </li>
-          <li class="text-white-50 mb-4"> Accounting Software: MYOB </li>
+          <li class="text-white-50 mb-4"> Databases: MySQL </li>
           <li class="text-white-50 mb-4"> API’s: REST API </li>
+          <li class="text-white-50 mb-4"> Versioning tools: Git </li>
+          <li class="text-white-50 mb-4"> Application/Web Server: XAMPP </li>
+          <li class="text-white-50 mb-4"> Web Debug Tools: Mozilla and Chrome developer tools</li>
+          <li class="text-white-50 mb-4"> Others: Linux OS Knowledge </li>
         </div>
       </div>
       <!-- <img src="img/ipad.png" class="img-fluid" alt=""> -->
@@ -109,27 +111,38 @@
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>Dokuwiki</h4>
-            <p class="text-black-50 mb-3">A web application used by the internal team to view and edit policies and procedures. It consists of a user and admin login. </p>
+            <p class="text-black-50 mb-3">A web application used by the internal team to view and edit policies and procedures...</p>
              <!-- <a href="" class="btn btn-primary js-scroll-trigger">Read More</a> -->
-             <a href="#" class = "btn btn-primary" data-toggle="modal" data-target="#modal-project">Read More</a>
+             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-project">Read More</a>
           </div>
         </div>
       </div>      
 
     <!-- Dokuwiki Modal -->
     <div class="modal fade" id="modal-project" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Dokuwiki</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title" id="exampleModalLabel">Dokuwiki</h4>
           </div>
           <div class="modal-body">
-            <div>
-              Tools
+            <!-- <div class="m-2"><span class="modal-text-title">Finished at:</span> October 2019 </div> -->
+            <div class="m-2"><span class="modal-text-title">Tools used:</span> Bootstrap, Yii Framework, Javascript, jQuery </div>
+            <div class="m-2"><span class="modal-text-title">Description:</span> A system used by the internal team to view, create and edit policies and procedures. The functionalities of the system are:</div>
+            <div class="m-2">
+              <ul>
+                <li class="">CRUD Policies and Procedures</li>
+                <li class="">User Account Control System</li>
+                <li class="">CRUD Tags</li>
+                <li class="">Add Contributors to that Policy or Procedure</li>
+                <li class="">Users can add comments to the policies and procedures</li>
+                <li class="">Search for Policies and Procedures using the search bar and/or search tags</li>
+              </ul>
             </div>
+            <img class="img-fluid mb-3 mb-lg-0" src="img/dokuwiki.jpg" alt="">
           </div>
         </div>
       </div>
