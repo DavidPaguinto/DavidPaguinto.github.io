@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>David Gabriel M. Paguinto</title>
+  <title>Web Developer</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,71 +28,42 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">My Portfolio</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <!-- Header -->
   <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">David Paguinto</h1>
-        <h3 class="text-white-50 mx-auto mt-5 mb-5"> Web Developer</h3>
-        <a href="#skills" class="btn btn-primary js-scroll-trigger">Learn More</a>
+    <div class="container d-flex h-100" style="width: fit-content;">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="my-0" style="font-family: Calibri; font-size: 7rem; ">David Paguinto</h1>
+          <h3 class="text-white-50 mt-5 mb-5">Just a guy that builds websites.</h3>
+        </div>
+        <div class="col-lg-6 align-items-center">
+          <div class="row">
+            <div class="col-lg-4 items"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></div>
+            <div class="col-lg-4 items"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></div>
+            <div class="col-lg-4 items"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- About Section -->
-<!--   <section id="about" class="about-section text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-        </div>
-      </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
-    </div>
-  </section> -->
-
-    <!-- Skills Section // Previously About Section -->
   <section id="skills" class="skills-section text-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Skills</h2>
-          <li class="text-white-50 mb-4"> General Web Technologies: HTML5, CSS3, PHP, JavaScript </li>
-          <li class="text-white-50 mb-4"> CSS Frameworks: Bootstrap </li>
-          <li class="text-white-50 mb-4"> PHP Frameworks: Yii, Laravel</li>
-          <li class="text-white-50 mb-4"> JavaScript Libraries: jQuery, React.js </li>
-          <li class="text-white-50 mb-4"> Databases: MySQL, MariaDB </li>
-          <li class="text-white-50 mb-4"> API’s: REST API </li>
-          <li class="text-white-50 mb-4"> Versioning tools: Git </li>
-          <li class="text-white-50 mb-4"> CMS: WordPress </li>
-          <li class="text-white-50 mb-4"> Web Server: Apache </li>
-          <li class="text-white-50 mb-4"> Others: XAMPP, Linux Knowledge </li>
+        <div class="col-lg-12">
+          <h2 class="text-white" style="margin-bottom: 2em;">Skills</h2>
+        </div>
+        <div class="col-lg-6" style="font-size: 20px;">
+          <li class="text-white-50 mb-4"> HTML, CSS, PHP, JavaScript </li>
+          <li class="text-white-50 mb-4"> Bootstrap </li>
+          <li class="text-white-50 mb-4"> Yii, Laravel</li>
+          <li class="text-white-50 mb-4"> jQuery </li>
+        </div>
+        <div class="col-lg-6" style="font-size: 20px;">
+          <li class="text-white-50 mb-4"> MySQL </li>
+          <li class="text-white-50 mb-4"> REST API </li>
+          <li class="text-white-50 mb-4"> Git </li>
+          <li class="text-white-50 mb-4"> XAMPP, Postman </li>
         </div>
       </div>
       <!-- <img src="img/ipad.png" class="img-fluid" alt=""> -->
@@ -103,8 +74,91 @@
   <section id="projects" class="projects-section bg-light">
     <div class="container">
       <h2 class="text-black text-center mb-4">Projects</h2>
+
+    <!-- Featured Project Row MyBlog(Laravel) -->
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div class="col-xl-8 col-lg-7">
+        <img class="img-fluid mb-3 mb-lg-0" src="img/myblog.png" alt="">
+      </div>
+      <div class="col-xl-4 col-lg-5">
+        <div class="featured-text text-center text-lg-left">
+          <h4>MyBlog</h4>
+          <p class="text-black-50 mb-3">A simple blog created in Laravel Framework.</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-myblog">Read More</a>
+        </div>
+      </div>
+    </div>      
+
+    <!-- MyBlog Modal -->
+    <div class="modal fade" id="modal-myblog" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">MyBlog</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="m-2"><span class="modal-text-title">Tools used:</span> Laravel Framework, JavaScript, jQuery, MySQL, HTML5, CSS3, Bootstrap </div>
+            <div class="m-2"><span class="modal-text-title">Description:</span> •	A simple blog created in Laravel Framework. The functionalities of the system are:</div>
+            <div class="m-2">
+              <ul>
+                <li class="">CRUD Blog Posts</li>
+                <li class="">User Account Control System</li>
+              </ul>
+            </div>
+            <img class="img-fluid mb-3 mb-lg-0" src="img/myblog.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MyBlog Modal -->
+
+    <!-- Featured Project Row Currency(RestAPI) -->
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div class="col-xl-8 col-lg-7">
+        <img class="img-fluid mb-3 mb-lg-0" src="img/currencyapi-image1.png" alt="">
+      </div>
+      <div class="col-xl-4 col-lg-5">
+        <div class="featured-text text-center text-lg-left">
+          <h4>CurrencyAPI Application</h4>
+          <p class="text-black-50 mb-3">A project that displays a list of currencies where the user can retrieve its data via REST API.</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-currency">Read More</a>
+        </div>
+      </div>
+    </div>      
+
+    <!-- CurrencyAPI Modal -->
+    <div class="modal fade" id="modal-currency" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">CurrencyAPI Application</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="m-2"><span class="modal-text-title">Tools used:</span> HTML5, CSS3, PHP, REST API </div>
+            <div class="m-2"><span class="modal-text-title">Description:</span> A project that displays a list of currencies where the user can retrieve its data via REST API. The functionalities of the system are:</div>
+            <div class="m-2">
+              <ul>
+                <li class="">Retrieve specified currency rates to the US Dollar</li>
+                <li class="">Comparison of currency rates</li>
+                <li class="">Add a specific currency to the list</li>
+                <li class="">Update all currency rates</li>
+              </ul>
+            </div>
+            <img class="img-fluid mb-3 mb-lg-0" src="img/currencyapi-image2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Currency Modal -->
+
       <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <!-- <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="img/dokuwiki.jpg" alt="">
         </div>
@@ -115,9 +169,9 @@
              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-dokuwiki">Read More</a>
           </div>
         </div>
-      </div>      
+      </div>       -->
 
-    <!-- Dokuwiki Modal -->
+    <!-- Dokuwiki Modal --
     <div class="modal fade" id="modal-dokuwiki" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -147,49 +201,9 @@
     </div>
     <!-- END Dokuwiki Modal -->
 
-    <!-- Featured Project Row MyBlog(Laravel) -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <div class="col-xl-8 col-lg-7">
-        <img class="img-fluid mb-3 mb-lg-0" src="img/myblog.png" alt="">
-      </div>
-      <div class="col-xl-4 col-lg-5">
-        <div class="featured-text text-center text-lg-left">
-          <h4>MyBlog</h4>
-          <p class="text-black-50 mb-3">A simple blog using Laravel Framework.</p>
-            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-myblog">Read More</a>
-        </div>
-      </div>
-    </div>      
-
-    <!-- MyBlog Modal -->
-    <div class="modal fade" id="modal-myblog" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLabel">MyBlog</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="m-2"><span class="modal-text-title">Tools used:</span> Laravel Framework, JavaScript, jQuery, MySQL, HTML5, CSS3, Bootstrap </div>
-            <div class="m-2"><span class="modal-text-title">Description:</span> •	A simple blog using Laravel Framework. The functionalities of the system are:</div>
-            <div class="m-2">
-              <ul>
-                <li class="">CRUD Blog Posts</li>
-                <li class="">User Account Control System</li>
-              </ul>
-            </div>
-            <img class="img-fluid mb-3 mb-lg-0" src="img/myblog.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END MyBlog Modal -->
-
 
     <!-- Featured Project Row Notes -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+    <!-- <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7">
         <img class="img-fluid mb-3 mb-lg-0" src="img/notes_app.png" alt="">
       </div>
@@ -197,14 +211,14 @@
         <div class="featured-text text-center text-lg-left">
           <h4>Notes App</h4>
           <p class="text-black-50 mb-3">A simple notes application created using React.js.</p>
-            <!-- <a href="" class="btn btn-primary js-scroll-trigger">Read More</a> -->
+            <!-- <a href="" class="btn btn-primary js-scroll-trigger">Read More</a> --
             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-notes_app">Read More</a>
         </div>
       </div>
-    </div>      
+    </div>       -->
 
     <!-- Notes App Modal -->
-    <div class="modal fade" id="modal-notes_app" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="modal-notes_app" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -214,7 +228,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <!-- <div class="m-2"><span class="modal-text-title">Finished at:</span> October 2019 </div> -->
+            <!-- <div class="m-2"><span class="modal-text-title">Finished at:</span> October 2019 </div> --
             <div class="m-2"><span class="modal-text-title">Tools used:</span> React.js, HTML5, CSS3, Bootstrap </div>
             <div class="m-2"><span class="modal-text-title">Description:</span> A simple notes application created using React.js. The functionalities of the system are:</div>
             <div class="m-2">
@@ -227,7 +241,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- END Notes App Modal -->
 
 
